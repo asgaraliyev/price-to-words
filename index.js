@@ -78,9 +78,12 @@ class PriceToWords {
   };
   constructor() {}
   add_lng({ lng, major, minor }) {
-    this.NS[lng_name].words = JSON.parse(JSON.stringify(words));
-    this.NS[lng_name].major = major;
-    this.NS[lng_name].minor = minor;
+    if(!lng)throw new Error("lng not found")
+    if(!major)throw new Error("major not found")
+    if(!minor)throw new Error("minor not found")
+    this.NS[lng].words = JSON.parse(JSON.stringify(words));
+    this.NS[lng].major = major;
+    this.NS[lng].minor = minor;
   }
   convertToWords({ number, lng }) {
     let NS = this.NS[lng].words;
