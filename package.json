@@ -1,0 +1,24 @@
+{
+  "name": "price-to-words",
+  "version": "1.0.0",
+  "description": "Price to words",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asgaraliyev/price-to-words.git"
+  },
+  "keywords": [
+    "Price",
+    "to",
+    "words"
+  ],
+  "author": "asgaraliyev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asgaraliyev/price-to-words/issues"
+  },
+  "homepage": "https://github.com/asgaraliyev/price-to-words#readme"
+}
